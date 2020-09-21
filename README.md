@@ -8,7 +8,9 @@ In this project, we use the osmosis filtering for two problems that was original
 
 ## Multi-Exposure Fusion (MEF)
 
-The code for MEF are contained in folder *Osmosis_multi-exposure-fusion/*. Run a demo by typing:
+The code for MEF are contained in folder *Osmosis_multi-exposure-fusion/*. 
+
+Run a demo by typing:
 
 ```
 osmosisFusion.m
@@ -42,7 +44,9 @@ The algorithm is based on [[1]](#1) with some modifications. A brief introductio
 
 ## Reflection Suppression
 
-The code for MEF are contained in folder *Osmosis_reflectionSuppresion/*. Run a demo by typing:
+The code for MEF are contained in folder *Osmosis_reflectionSuppresion/*. 
+
+Run a demo by typing:
 
 ```
 osmosis_reflectionSuppress.m
