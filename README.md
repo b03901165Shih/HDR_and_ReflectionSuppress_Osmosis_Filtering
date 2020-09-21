@@ -32,6 +32,42 @@ The algorithm is based on [[1]](#1) with some modifications. A brief introductio
   <img width="30%" height="30%" src="./Osmosis_multi-exposure-fusion/results_tengaussdouble/House_osmosis_fusion.png" />
 </p>
 
+<p align="left">
+  <img width="30%" height="30%" src="./Osmosis_multi-exposure-fusion/results_tengaussdouble/BelgiumHouse_osmosis_fusion.png" />
+  <img width="30%" height="30%" src="./Osmosis_multi-exposure-fusion/results_tengaussdouble/Venice_osmosis_fusion.png" />
+  <img width="15%" height="15%" src="./Osmosis_multi-exposure-fusion/results_tengaussdouble/Tower_osmosis_fusion.png" />
+  <img width="15%" height="15%" src="./Osmosis_multi-exposure-fusion/results_tengaussdouble/Church_osmosis_fusion.png" />
+</p>
+
+
+## Reflection Suppression
+
+The code for MEF are contained in folder *Osmosis_reflectionSuppresion/*. Run a demo by typing:
+
+```
+osmosis_reflectionSuppress.m
+```
+
+The algorithm is based on [[2]](#2) ([Github link](https://github.com/yyhz76/reflectSuppress)). The reflection is suppressed by hard-thresholding small gradient value to 0 in the gradient map, and recover the image by solving a 2D Poisson's equation using DCT. We implement a similar version with the osmosis model. The energy is minimized by gradient descent.
+
+> ### Results
+
+Input image | Result (reflection suppressed)
+
+<p align="left">
+  <img width="40%" height="40%" src="./Osmosis_reflectionSuppresion/figures/Dog-In-Window.jpg" />
+  <img width="40%" height="40%" src="./Osmosis_reflectionSuppresion/results/Dog-In-Window.jpg" />
+</p>
+
+<p align="left">
+  <img width="40%" height="40%" src="./Osmosis_reflectionSuppresion/figures/building.jpg" />
+  <img width="40%" height="40%" src="./Osmosis_reflectionSuppresion/results/building.jpg" />
+</p>
+
+<p align="left">
+  <img width="40%" height="40%" src="./Osmosis_reflectionSuppresion/figures/train.jpg" />
+  <img width="40%" height="40%" src="./Osmosis_reflectionSuppresion/results/train.jpg" />
+</p>
 
 ## References
 
