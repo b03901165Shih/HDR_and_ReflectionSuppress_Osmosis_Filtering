@@ -1,4 +1,4 @@
-# HDR_and_ReflectionSuppress_with_Osmosis_Filtering
+# HDR_and_ReflectionSuppress_Osmosis_Filtering
 This repository contains a Matlab implementation of using the osmosis filtering algorithm for applications include multi-exposure fusion and reflection suppression.
 
 The osmosis filtering is a gradient-based method, which is similar but different to Poisson editing and can sometimes be its alternative. The details of the algorithm can refer to the references in [this page](https://github.com/b03901165Shih/Osmosis_Filtering_using_ADI_and_OS).
