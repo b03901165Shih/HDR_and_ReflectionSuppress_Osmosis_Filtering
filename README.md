@@ -1,2 +1,2 @@
-# Osmosis_for_Reflection_Suppersion_and_HDR
+# HDR_and_Reflection_Suppression_using_Osmosis_Filtering
 Reflection Suppression and HDR fusion based on osmosis filtering 
