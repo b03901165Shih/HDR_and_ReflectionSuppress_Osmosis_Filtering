@@ -1,2 +1,2 @@
-# HDR_and_Reflection_Suppression_using_Osmosis_Filtering
-Reflection Suppression and HDR fusion based on osmosis filtering 
+# HDR_and_ReflectionSuppress_with_Osmosis_Filtering
+This repository contains 
